@@ -10,8 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('test', function() {
+    return view('teste');
+});
 Auth::routes();
+
 Route::get('logout', 'Auth\LoginController@logout')->name('logout');
 Route::get('', 'HomeController@index')->name('home');
 
@@ -41,3 +44,5 @@ Route::middleware('auth')
         Route::resource('address', 'AddressController');
         Route::resource('order', 'OrderController')->only(['index', 'show']);
     });
+
+
