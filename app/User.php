@@ -2,15 +2,13 @@
 
 namespace App;
 
-use AvoRed\Framework\Database\Models\Address;
-use Laravel\Passport\HasApiTokens;
-use Laravel\Passport\ClientRepository;
-use Illuminate\Notifications\Notifiable;
+use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
 
 class User extends Authenticatable
 {
-    use Notifiable, HasApiTokens;
+    use Notifiable;
 
     /**
      * The attributes that are mass assignable.
@@ -18,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password', 'image'
+        'name', 'email', 'password',
     ];
 
     /**
@@ -38,26 +36,4 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
-
-    /**
-     * Get the Passport Client for User and If it doesnot exist then create a new one.
-     * @return \Laravel\Passport\Client $client
-     */
-    public function getPassportClient()
-    {
-        $client = $this->clients->first();
-        if (null === $client) {
-            $clientRepository = app(ClientRepository::class);
-
-            $redirectUri = env('APP_URL');
-            $client = $clientRepository->createPasswordGrantClient($this->id, $this->name, $redirectUri);
-        }
-
-        return $client;
-    }
-
-    public function addresses()
-    {
-        return $this->hasMany(Address::class);
-    }
 }

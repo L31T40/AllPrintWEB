@@ -11,18 +11,5 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.webpackConfig({
-    output: {
-        chunkFilename: mix.inProduction() ? "js/chunk/[name].[chunkhash].js" : "js/chunk/[name].js",
-    }
-})
-mix.js('resources/js/app.js', 'public/js/app.js');
-
-mix.less('resources/less/app.less', 'public/css/app.css', {
-    javascriptEnabled: true,
-    modifyVars: {
-        'primary-color': '#E64448',
-        'link-color': '#C12E32',
-        'border-radius-base': '5px',
-    },
-})
+mix.js('resources/js/app.js', 'public/js')
+    .sass('resources/sass/app.scss', 'public/css');

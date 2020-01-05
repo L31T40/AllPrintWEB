@@ -1,43 +1,78 @@
+<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+
 <p align="center">
-    <a href="https://www.avored.com/" target="_blank"><img src="https://github.com/avored/framework/raw/dev/logo.svg?sanitize=true" height="86" alt="AvoRed"></a>
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-<p align="center">
-    <a href="https://circleci.com/gh/avored/framework/tree/master" target="_blank"><img src="https://circleci.com/gh/avored/framework/tree/master.svg?style=shield" alt="CircleCI"></a>
-    <a href="https://packagist.org/packages/avored/framework" target="_blank"><img src="https://poser.pugx.org/avored/framework/downloads" alt="Total Downloads"></a>
-    <a href="https://packagist.org/packages/avored/framework" target="_blank"><img src="https://poser.pugx.org/avored/framework/v/stable" alt="Latest Stable Version"></a>
-    <a href="https://packagist.org/packages/avored/framework" target="_blank"><img src="https://poser.pugx.org/avored/framework/license" alt="License"></a>
-</p> 
+## About Laravel
 
-[AvoRed](https://www.avored.com/) is a free open-source e-commerce platform written in PHP based on Laravel.    
-Its an ingenuous and modular e-commerce that is easily customizable according to your needs, with a modern responsive mobile friendly interface as default.    
-The main advantage of being an modular E-Commerce is that you can download each module separately that is necessary for your store.
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-[![Chat on Slack](https://img.shields.io/badge/join--slack-avored--ecommerce-c62828.svg?longCache=true&style=for-the-badge&logo=slack&color=#c62828)](https://join.slack.com/t/avored/shared_invite/enQtNDQ1Nzc0MTQ1NjIwLTNiMzIyYzc4M2Y2YWE4YzlhNjM3NzhhN2I0NTAyMzhkNGZmOWUyNjQ1N2U1NGQ3MzIzOGU0MDM0MDM1NTc2MDg)
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-## Changelog
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-All notable changes to [AvoRed](https://www.avored.com/) will be documented [here](CHANGELOG.md).
+## Learning Laravel
 
-## Documentation
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-Please visit the [AvoRed Documentation](https://www.avored.com/docs) to get started with [AvoRed](https://www.avored.com/).
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Demo 
+## Laravel Sponsors
 
-a demo store can be found at [https://demo.avored.com](https://demo.avored.com/).
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[British Software Development](https://www.britishsoftware.co)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- [UserInsights](https://userinsights.com)
+- [Fragrantica](https://www.fragrantica.com)
+- [SOFTonSOFA](https://softonsofa.com/)
+- [User10](https://user10.com)
+- [Soumettre.fr](https://soumettre.fr/)
+- [CodeBrisk](https://codebrisk.com)
+- [1Forge](https://1forge.com)
+- [TECPRESSO](https://tecpresso.co.jp/)
+- [Runtime Converter](http://runtimeconverter.com/)
+- [WebL'Agence](https://weblagence.com/)
+- [Invoice Ninja](https://www.invoiceninja.com)
+- [iMi digital](https://www.imi-digital.de/)
+- [Earthlink](https://www.earthlink.ro/)
+- [Steadfast Collective](https://steadfastcollective.com/)
+- [We Are The Robots Inc.](https://watr.mx/)
+- [Understand.io](https://www.understand.io/)
+- [Abdel Elrafa](https://abdelelrafa.com)
+- [Hyper Host](https://hyper.host)
+- [Appoly](https://www.appoly.co.uk)
+- [OP.GG](https://op.gg)
 
 ## Contributing
 
-Please read our [contributing guide](.github/CONTRIBUTING.md) if you want to contribute to this project.
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Contributors
+## Code of Conduct
 
-[AvoRed](https://www.avored.com/) exists thanks to all the people who contribute. [[Contribute]](CONTRIBUTING.md).
-<a href="https://github.com/avored/laravel-ecommerce/graphs/contributors"><img src="https://opencollective.com/laravel-ecommerce/contributors.svg?width=890" title="contributors" alt="contributors" /></a>
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Sponsors
+## Security Vulnerabilities
 
-Support [AvoRed](https://www.avored.com/) by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/laravel-ecommerce#sponsor)]
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-<a href="https://opencollective.com/laravel-ecommerce/sponsor/0/website" target="_blank"><img src="https://opencollective.com/laravel-ecommerce/sponsor/0/avatar.svg"></a>
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
